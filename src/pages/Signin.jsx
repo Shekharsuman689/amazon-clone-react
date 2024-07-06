@@ -2,8 +2,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
 import { auth } from "../firebase.config";
 import { Link } from "react-router-dom";
-// import { toast } from "react-toastify";
-// import SignInwithGoogle from "./signInWIthGoogle";
+
 
 function Signin() {
   const [email, setEmail] = useState("");

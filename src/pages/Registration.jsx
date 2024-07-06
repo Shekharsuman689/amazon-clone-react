@@ -35,14 +35,10 @@ function Registration() {
       navigate("/signin")
     } catch (error) {
       console.log(error.message);
-      // toast.error(error.message, {
-      //   position: "bottom-center",
-      // });
+    
       const navigate = useNavigate();
 
-  // const handleSignUpClick = () => {
-  //   navigate('/signin');
-  // };
+  
     }
   };
   return (
