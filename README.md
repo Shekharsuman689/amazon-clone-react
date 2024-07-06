@@ -2,7 +2,7 @@
 
 ## Links:
 
-- **Deployment URL:** 
+- **Deployment URL:** https://amazon-clone-react-orpin-ten.vercel.app/
 
 ## About the App:
 
@@ -31,7 +31,7 @@ Amazon Web is a feature-rich shopping application designed to offer users a seam
 
 ## How to Run:
 
-### **Clone the repository:**
+### **Clone the repository:**https://github.com/Shekharsuman689/amazon-clone-react.git
 
 ```bash
 git clone 
@@ -98,7 +98,7 @@ Amazon Web was developed to provide users with a seamless shopping experience, u
 
 #### Deployment Steps
 
-1. **Fork the Repository:**
+1. **Fork the Repository:**https://github.com/Shekharsuman689/amazon-clone-react.git
 2. Create a Vercel account if you don't have.
 3. Once logged in, click on "New Project" in the Vercel dashboard.
 4. Select "Import Git Repository" and connect your GitHub account if prompted.
@@ -123,7 +123,7 @@ Amazon Web was developed to provide users with a seamless shopping experience, u
   - GitHub:[https://github.com/idharmendrarock](https://github.com/idharmendrarock)
   - Email: idharmendrarock@gmail.com
 
- - 
+   
   - **Pooja Gupta**
   - GitHub:[https://github.com/Pooja7667](https://github.com/Pooja7667)
   - Email: kpk79046@gmail.com
