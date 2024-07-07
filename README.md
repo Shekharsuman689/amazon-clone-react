@@ -122,7 +122,7 @@ Amazon Web was developed to deliver a seamless shopping experience, leveraging m
 - **Dharmendra Kumar**
   - GitHub:[https://github.com/idharmendrarock](https://github.com/idharmendrarock)
   - Email: idharmendrarock@gmail.com
- 
-  - **Pooja Gupta**
+    
+ - **Pooja Gupta**
   - GitHub:[https://github.com/Pooja7667](https://github.com/Pooja7667)
   - Email: kpk79046@gmail.com
