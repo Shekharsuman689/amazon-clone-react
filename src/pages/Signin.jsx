@@ -14,15 +14,8 @@ function Signin() {
       await signInWithEmailAndPassword(auth, email, password);
       console.log("User logged in Successfully");
       window.location.href = "/";
-      // toast.success("User logged in Successfully", {
-      //   position: "top-center",
-      // });
     } catch (error) {
       console.log(error.message);
-
-      // toast.error(error.message, {
-      //   position: "bottom-center",
-      // });
     }
   };
 
