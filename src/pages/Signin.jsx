@@ -24,7 +24,7 @@ return (
     <div className="w-full max-w-xs bg-gray-200 p-9 rounded-md shadow-sm">
       <div className="text-center mb-9">
       <Link to = "/">
-        <img src="/src/assets/logoAmaz.png" alt="Logo" className="mx-auto h-12 w-auto" />
+        <img src="https://static.vecteezy.com/system/resources/previews/019/766/240/original/amazon-logo-amazon-icon-transparent-free-png.png" alt="Logo" className="mx-auto h-12 w-auto" />
         </Link>
       </div>
       <h3 className="text-2xl font-semibold mb-6 text-gray-800 text-center">Sign In</h3>
