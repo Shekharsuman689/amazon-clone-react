@@ -16,6 +16,7 @@ import Signin from "./pages/Signin";
 import Registration from "./pages/Registration";
 import Checkout from "./pages/Checkout";
 import { productsData } from "./api/api";
+import { ToastContainer } from "react-toastify";
 
 const Layout = () => {
   return (
@@ -24,6 +25,7 @@ const Layout = () => {
       <ScrollRestoration />
       <Outlet />
       <Footer />
+      <ToastContainer />
     </div>
   );
 };

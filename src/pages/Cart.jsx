@@ -1,5 +1,5 @@
 //This an add-to-cart page that contains information on products that are added to the cart, Total price, Delete item button, Clear cart button and
-//Procced to buy page 
+//Procced to buy page
 
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -13,6 +13,8 @@ import {
 import { motion } from "framer-motion";
 import { emptyCart } from "../assets";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const Cart = () => {
   const products = useSelector((state) => state.amazonReducer.products);
@@ -28,6 +30,18 @@ const Cart = () => {
     setTotalAmt(price.toFixed(2));
   }, [products]);
   // ============ Total Amount End here ================
+
+  const handleDeleteItem = (id) => {
+    dispatch(deleteItem(id));
+    toast.success("Item deleted from cart");
+  };
+
+  const handleClearCart = () => {
+    dispatch(resetCart());
+    toast.success("Cart cleared successfully");
+  };
+
+
   return (
     <div className="w-full bg-gray-100 p-4">
       {products.length > 0 ? (
@@ -83,7 +97,7 @@ const Cart = () => {
                         </p>
                       </div>
                       <button
-                        onClick={() => dispatch(deleteItem(item.id))}
+                        onClick={() => handleDeleteItem(item.id)}
                         className="bg-red-500 w-36 py-1 rounded-lg text-white mt-2 hover:bg-red-700 active:bg-red-900 duration-300"
                       >
                         Delete Item
@@ -103,7 +117,7 @@ const Cart = () => {
               ))}
             </div>
             {/* ====================== Products End here =========================== */}
-            <div onClick={() => dispatch(resetCart())} className="w-full py-4">
+            <div onClick={() => handleClearCart()} className="w-full py-4">
               <button className="px-10 py-2 bg-red-500 hover:bg-red-600 active:bg-red-500 text-white rounded-lg font-titleFont font-semibold text-lg tracking-wide">
                 Clear Cart
               </button>
